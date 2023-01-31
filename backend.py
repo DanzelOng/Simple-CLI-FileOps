@@ -26,12 +26,6 @@ class Config:
         Config.root = modif
         Config.folder_dict.clear()
 
-    @classmethod
-    def changeAll(cls, modif):
-        Config.root = modif
-        Config.file_ops = modif
-        Config.format = modif
-
 class Input(Config):
 
     def askInput(self):
